@@ -1,6 +1,6 @@
-DEBIAN="11.2-slim"
+DEBIAN_VERSION="11.2"
 CHANGE_COUNTER="1"
-IMAGE_TAG="$(DEBIAN)-$(CHANGE_COUNTER)"
+IMAGE_TAG="$(DEBIAN_VERSION)-$(CHANGE_COUNTER)"
 IMAGE_NAME="registry.cloudogu.com/official/base-debian"
 MAKEFILES_VERSION=4.5.0
 
@@ -29,7 +29,7 @@ info:
 	@echo "Version       : $(VERSION)"
 	@echo "Image Name    : $(IMAGE_NAME)"
 	@echo "Image Tag     : $(IMAGE_TAG)"
-	@echo "Image         : $(IMAGE_NAME):$(DEBIAN)-$(CHANGE_COUNTER)"
+	@echo "Image         : $(IMAGE_NAME):$(DEBIAN_VERSION)-$(CHANGE_COUNTER)"
 
 .PHONY: build
 build:
