@@ -28,4 +28,5 @@ RUN apt update && apt -y dist-upgrade && apt install -y --no-install-recommends 
     zip \
     unzip \
     ca-certificates \
-    jq
+    jq \
+    vim-tiny
