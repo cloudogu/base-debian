@@ -24,4 +24,12 @@ ADD packages/doguctl-${DOGUCTL_VERSION}.tar.gz /usr/bin/
 
 # install dependencies
 RUN apt update && apt -y dist-upgrade
-RUN apt install -y curl openssl wget tar zip unzip ca-certificates jq
+RUN apt install -y --no-install-recommends \
+    curl \
+    openssl \
+    wget \
+    tar \
+    zip \
+    unzip \
+    ca-certificates \
+    jq
