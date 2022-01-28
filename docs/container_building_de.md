@@ -9,6 +9,6 @@ Dieses Container-Image bildet die Basis für viele dogu-Container-Images. Neben 
    1. Platzieren Sie das Binary in `packages/`
    1. Aktualisieren Sie die SHA256-Prüfsumme von `doguctl`, wenn sich die Version geändert hat
 2. Wechseln Sie zu einer laufenden CES-Instanz
-   1. Aktualisieren Sie die `Makefile` Felder `ALPINE_VERSION` und `CHANGE_COUNTER` entsprechend
+   1. Aktualisieren Sie die `Makefile` Felder `DEBIAN_VERSION` und `CHANGE_COUNTER` entsprechend
    2. Erstellen Sie das Basis-Dogu-Image mit `make` oder `make build`.
    3. Verteilen Sie das Basis-Dogu-Image mit `make deploy`.
