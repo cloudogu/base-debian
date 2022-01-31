@@ -1,5 +1,5 @@
-[![GitHub license](https://img.shields.io/github/license/cloudogu/base.svg)](https://github.com/cloudogu/base/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/cloudogu/base.svg)](https://github.com/cloudogu/base/releases)
+[![GitHub license](https://img.shields.io/github/license/cloudogu/base-debian.svg)](https://github.com/cloudogu/base-debian/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/cloudogu/base-debian.svg)](https://github.com/cloudogu/base-debian/releases)
 
 # Base Dogu Docker image (debian)
 
@@ -29,4 +29,4 @@ Want to talk to the Cloudogu team? Need help or support? There are several ways 
 * [Email hello@cloudogu.com](mailto:hello@cloudogu.com)
 
 ---
-&copy; 2020 Cloudogu GmbH - MADE WITH :heart:&nbsp;FOR DEV ADDICTS. [Legal notice / Impressum](https://cloudogu.com/en/imprint/?mtm_campaign=redmine&mtm_kwd=imprint&mtm_source=github&mtm_medium=link)
+&copy; 2022 Cloudogu GmbH - MADE WITH :heart:&nbsp;FOR DEV ADDICTS. [Legal notice / Impressum](https://cloudogu.com/en/imprint/?mtm_campaign=redmine&mtm_kwd=imprint&mtm_source=github&mtm_medium=link)
