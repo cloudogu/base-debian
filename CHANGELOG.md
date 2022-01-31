@@ -6,9 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [11.2-2] - 2022-01-31
 ### Changed
 - Unpack doguctl to /usr/bin to make the `doguctl` command available (#1)
 
-## [11.2-1]
+## [11.2-1] - 2022-01-28
 ### Added
 - Initial content to create the debian base image
