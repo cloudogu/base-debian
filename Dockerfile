@@ -29,4 +29,6 @@ RUN apt update && apt -y dist-upgrade && apt install -y --no-install-recommends 
     unzip \
     ca-certificates \
     jq \
-    vim-tiny
+    vim-tiny \
+    && tar -xvzf /usr/bin/doguctl-${DOGUCTL_VERSION}.tar.gz -C /usr/bin/ \
+    && rm /usr/bin/doguctl-${DOGUCTL_VERSION}.tar.gz
