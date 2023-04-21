@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [11.6-1] - 2023-04-21
+### Changed
+- Update debian to 11.6 (#3)
+- Remove curl and wget
+
 ## [11.2-2] - 2022-01-31
 ### Changed
 - Unpack doguctl to /usr/bin to make the `doguctl` command available (#1)
