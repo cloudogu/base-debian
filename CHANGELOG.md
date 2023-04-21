@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [11.6-1] - 2023-04-21
 ### Changed
 - Update debian to 11.6 (#3)
-- Remove curl and wget
+- Remove curl,wget and vim-tiny
 
 ## [11.2-2] - 2022-01-31
 ### Changed
