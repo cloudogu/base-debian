@@ -1,4 +1,4 @@
-DEBIAN_VERSION="11.6"
+DEBIAN_VERSION="11.8"
 CHANGE_COUNTER="1"
 IMAGE_TAG="$(DEBIAN_VERSION)-$(CHANGE_COUNTER)"
 IMAGE_NAME="registry.cloudogu.com/official/base-debian"
