@@ -98,7 +98,7 @@ teardown() {
   mock_set_output "${doguctl}" "-----BEGIN CERTIFICATE-----\nCERT FOR CONTENT2\n-----END CERTIFICATE-----\n" 5
 
   source /workspace/resources/usr/bin/create-ca-certificates.sh
-  export DEFAULT_ROOT_CERTIFICATES=/workspace/unitTests/etc/ssl/ca-certificates.crt
+  export DEFAULT_ROOT_CERTIFICATES=/workspace/batsTests/etc/ssl/ca-certificates.crt
 
   run run_main "${tempCertFile}"
 
