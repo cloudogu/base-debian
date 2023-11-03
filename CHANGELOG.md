@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [11.8-1] - 2023-11-02
+### Changed
+- Update debian to 11.8 (#7)
+
 ## [11.6-1] - 2023-04-21
 ### Changed
 - Update debian to 11.6 (#3)
