@@ -12,18 +12,6 @@ include build/make/self-update.mk
 include build/make/clean.mk
 include build/make/bats.mk
 
-WORKSPACE=/workspace
-BATS_LIBRARY_DIR=$(TARGET_DIR)/bats_libs
-TESTS_DIR=./unitTests
-BASH_TEST_REPORT_DIR=$(TARGET_DIR)/shell_test_reports
-BASH_TEST_REPORTS=$(BASH_TEST_REPORT_DIR)/TestReport-*.xml
-BATS_ASSERT=$(BATS_LIBRARY_DIR)/bats-assert
-BATS_MOCK=$(BATS_LIBRARY_DIR)/bats-mock
-BATS_SUPPORT=$(BATS_LIBRARY_DIR)/bats-support
-BATS_FILE=$(BATS_LIBRARY_DIR)/bats-file
-BATS_BASE_IMAGE?=bats/bats
-BATS_CUSTOM_IMAGE?=cloudogu/bats
-BATS_TAG?=1.2.1
 
 .PHONY: info
 info:
