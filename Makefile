@@ -2,7 +2,7 @@ DEBIAN_VERSION="12.5"
 CHANGE_COUNTER="1"
 IMAGE_TAG="$(DEBIAN_VERSION)-$(CHANGE_COUNTER)"
 IMAGE_NAME="registry.cloudogu.com/official/base-debian"
-MAKEFILES_VERSION=8.7.3
+MAKEFILES_VERSION=9.0.3
 
 default: build
 
