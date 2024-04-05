@@ -9,7 +9,7 @@ ENV DOGUCTL_VERSION=$doguctl_version
 RUN mkdir packages
 COPY resources/usr/bin/doguctl-$DOGUCTL_VERSION.tar.gz /packages
 RUN sha256sum "/packages/doguctl-${DOGUCTL_VERSION}.tar.gz"
-RUN set +x && echo "4c38d308c2fe3f8eb2b44c075af7038c2d0dc1c4a5dfcd5d75393de2d1f06c0c */packages/doguctl-${DOGUCTL_VERSION}.tar.gz" | sha256sum -c
+RUN set +x && echo "$DOGUCTL_SHA256 */packages/doguctl-${DOGUCTL_VERSION}.tar.gz" | sha256sum -c
 
 FROM debian:12.5-slim
 ARG doguctl_version
