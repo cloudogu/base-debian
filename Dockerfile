@@ -1,10 +1,10 @@
 # keep variables beyond the single build stages, see https://stackoverflow.com/a/53682110/12529534
-ARG doguctl_version=0.10.0
+ARG doguctl_version=0.11.0
 
 FROM debian:12.5-slim as doguctlBinaryVerifier
 ARG doguctl_version
 
-ENV DOGUCTL_SHA256=2d1c9702813583a137a46c5d31a25957e26b32d7f0348f2531e5f76ef3cc39e2
+ENV DOGUCTL_SHA256=2b49d960e8d5abcb72fe5c621fd1ff9d248421d0bc0b58f4751e67125ecc64e0
 ENV DOGUCTL_VERSION=$doguctl_version
 RUN mkdir packages
 COPY resources/usr/bin/doguctl-$DOGUCTL_VERSION.tar.gz /packages
