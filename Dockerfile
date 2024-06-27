@@ -29,4 +29,6 @@ RUN apt update && apt -y dist-upgrade && apt install -y --no-install-recommends 
     jq \
     && tar -xvzf /usr/bin/doguctl-${DOGUCTL_VERSION}.tar.gz -C /usr/bin/ \
     && rm /usr/bin/doguctl-${DOGUCTL_VERSION}.tar.gz \
-    && apt clean
+    && apt clean \
+    && rm -rf /var/lib/apt/lists/*
+
