@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [12.6-1]
 ### Changed
 - [#21] Upgrade debian to v12.6
 - [#21] Upgrade doguctl to v0.12.1
