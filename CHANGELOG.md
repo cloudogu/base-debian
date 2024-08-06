@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
+- [#21] Upgrade debian to v12.6
 - [#21] Upgrade doguctl to v0.12.1
 
 ### Security
