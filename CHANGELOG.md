@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [#25] Update doguctl to version 0.13.1
    - Fixes CVE-2024-45337 
 
-## [12.7-2] - 2024-
+## [12.7-2] - 2024-09-23
 ### Changed
 - [#23] Relicense to AGPL-3.0-only
 
