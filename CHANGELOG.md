@@ -5,8 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## Security
+- [#25] Update doguctl to version 0.13.1
+   - Fixes CVE-2024-45337 
 
-## [12.7-2]
+## [12.7-2] - 2024-09-23
 ### Changed
 - [#23] Relicense to AGPL-3.0-only
 
@@ -15,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Upgrade to debian 12.7
 - Upgrade doguctl to v0.12.2
 
-## [12.6-1]
+## [12.6-1] - 2024-08-06
 ### Changed
 - [#21] Upgrade debian to v12.6
 - [#21] Upgrade doguctl to v0.12.1

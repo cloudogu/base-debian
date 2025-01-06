@@ -1,5 +1,5 @@
 DEBIAN_VERSION="12.7"
-CHANGE_COUNTER="2"
+CHANGE_COUNTER="3"
 IMAGE_TAG="$(DEBIAN_VERSION)-$(CHANGE_COUNTER)"
 IMAGE_NAME="registry.cloudogu.com/official/base-debian"
 MAKEFILES_VERSION=9.0.5
@@ -23,7 +23,11 @@ info:
 
 .PHONY: build
 build:
-	docker build -t "$(IMAGE_NAME):$(IMAGE_TAG)" .
+	@echo "Verifying doguctl version..."
+	@docker build --target doguctlbinaryverifier -t "$(IMAGE_NAME):you-can-safely-delete-this" .
+	@docker rmi "$(IMAGE_NAME):you-can-safely-delete-this"
+	@echo "Building production image..."
+	@docker build -t "$(IMAGE_NAME):$(IMAGE_TAG)" .
 
 .PHONY: deploy
 deploy: build
