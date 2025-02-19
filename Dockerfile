@@ -1,14 +1,14 @@
 # keep variables beyond the single build stages, see https://stackoverflow.com/a/53682110/12529534
-ARG doguctl_version=0.13.1
+ARG doguctl_version=0.13.2
 
-FROM debian:12.7-slim AS base
+FROM debian:12.9-slim AS base
 
 # This stage is not referenced from the main stage and will be cached away forever :(
 # Make sure to call `make build` or `docker build --target doguctlbinaryverifier` to verify the binary
 FROM base AS doguctlbinaryverifier
 ARG doguctl_version
 
-ENV DOGUCTL_SHA256=f82f17c6aa64f8d7ac1cc922043823660eb595a2ad45a42b47d10cf86696a85b
+ENV DOGUCTL_SHA256=94a652beba7484ba92f3e869e11be82902769490ef5272e6eac1a3d0969f1a0f
 ENV DOGUCTL_VERSION=$doguctl_version
 WORKDIR /pkg
 COPY packages/doguctl-$DOGUCTL_VERSION.tar.gz /pkg
