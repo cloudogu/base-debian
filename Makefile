@@ -10,12 +10,10 @@ MAKEFILES_VERSION=10.2.0
 
 default: build
 
-
 include build/make/variables.mk
 include build/make/self-update.mk
 include build/make/clean.mk
 include build/make/bats.mk
-
 
 .PHONY: info
 info:
@@ -32,7 +30,15 @@ build:
 
 .PHONY: deploy
 deploy: build
+	@echo "Publishing image $(IMAGE_NAME):$(IMAGE_TAG)"
 	docker push "$(IMAGE_NAME):$(IMAGE_TAG)"
+
+.PHONY: deploy-prerelease
+deploy-prerelease: build
+	@echo "Publishing image $(IMAGE_NAME_PRERELEASE):$(IMAGE_TAG)"
+	docker tag "$(IMAGE_NAME):$(IMAGE_TAG)" "$(IMAGE_NAME_PRERELEASE):$(IMAGE_TAG)"
+	docker rmi "$(IMAGE_NAME):$(IMAGE_TAG)"
+	docker push "$(IMAGE_NAME_PRERELEASE):$(IMAGE_TAG)"
 
 .PHONY: shell
 shell: build
