@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- [#29] Update Debian to v13.0
+- [#29] Update doguctl to v0.13.3
+- [#29] Update Makefiles to v10.2.0
+### Security
+- [#29] Fixes CVE-2023-45853
 
 ## [12.9-1] - 2025-02-21
 ### Changed
