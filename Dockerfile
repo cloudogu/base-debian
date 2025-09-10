@@ -1,7 +1,7 @@
 ARG DEBIAN_VERSION
 ARG DEBIAN_VER_SHA
 
-FROM debian:${DEBIAN_VERSION}@sha256:${DEBIAN_VER_SHA} AS base
+FROM debian:${DEBIAN_VERSION}@sha256:${DEBIAN_VER_SHA}
 
 LABEL maintainer="hello@cloudogu.com"
 
@@ -9,8 +9,8 @@ COPY resources/ /
 
 COPY packages/doguctl.tar.gz /tmp/doguctl.tar.gz
 RUN tar -xzf /tmp/doguctl.tar.gz -C /tmp \
-    && install -m 755 -p /tmp/doguctl /usr/local/bin/doguctl \
-    && rm -f /tmp/doguctl.tar.gz /tmp/doguctl
+  && install -m 755 -p /tmp/doguctl /usr/local/bin/doguctl \
+  && rm -f /tmp/doguctl.tar.gz /tmp/doguctl
 
 # install utilities and dependencies
 RUN apt update \
