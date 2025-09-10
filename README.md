@@ -3,19 +3,8 @@
 
 # Base Dogu Docker image (debian)
 
-## How to Build
+Detailed instructions for building and releasing the base image can be found in [container_building.en.md](docs/container_building_en.md).
 
-    make build
-
-
-More detailed instructions about building the base image can be found in [container_building.en.md](docs/container_building_en.md). 
-
-## Additional packages for base not included in debian repository
-
-### doguctl
-
-origin is https://github.com/cloudogu/doguctl/releases/download/<version>/doguctl-<version>.tar.gz
-cached in packages directory to avoid download
 
 ---
 ## What is the Cloudogu EcoSystem?
@@ -24,6 +13,7 @@ The Cloudogu EcoSystem is an open platform, which lets you choose how and where 
 We have a growing number of ready-to-use Dogus, e.g. SCM-Manager, Jenkins, Nexus Repository, SonarQube, Redmine and many more. Every Dogu can be tailored to your specific needs. Take advantage of a central authentication service, a dynamic navigation, that lets you easily switch between the web UIs and a smart configuration magic, which automatically detects and responds to dependencies between Dogus.
 
 The Cloudogu EcoSystem is open source and it runs either on-premises or in the cloud. The Cloudogu EcoSystem is developed by Cloudogu GmbH under [AGPL-3.0-only](https://spdx.org/licenses/AGPL-3.0-only.html).
+
 
 ## License
 Copyright © 2020 - present Cloudogu GmbH
@@ -35,4 +25,3 @@ See [LICENSE](LICENSE) for details.
 
 ---
 MADE WITH :heart:&nbsp;FOR DEV ADDICTS. [Legal notice / Imprint](https://cloudogu.com/en/imprint/?mtm_campaign=ecosystem&mtm_kwd=imprint&mtm_source=github&mtm_medium=link)
-
