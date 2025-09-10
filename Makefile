@@ -6,7 +6,7 @@ IMAGE_NAME=registry.cloudogu.com/official/base-debian
 IMAGE_NAME_PRERELEASE=registry.cloudogu.com/prerelease_official/base-debian
 DOGUCTL_VERSION=0.13.3
 DOGUCTL_VER_SHA=612ca0c4890984401206c148106e4ced23c90924dd2ad979b2cbcc8b0a50e395
-MAKEFILES_VERSION=10.2.0
+MAKEFILES_VERSION=10.2.1
 
 default: build
 
