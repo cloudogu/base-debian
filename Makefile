@@ -24,6 +24,7 @@ info:
 .PHONY: build
 build:
 	docker build \
+	--no-cache \
 	--build-arg "DEBIAN_VERSION=$(DEBIAN_VERSION)" \
 	--build-arg "DEBIAN_VER_SHA=$(DEBIAN_VER_SHA)" \
 	-t "$(IMAGE_NAME):$(IMAGE_TAG)" .
