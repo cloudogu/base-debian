@@ -4,36 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [13.3-3] - 2026-02-07
+## [12.9-2] - 2026-02-07
 ### Security
-- Fixes [CVE-2025-15467](https://avd.aquasec.com/nvd/2025/cve-2025-15467)
-
-## [13.3-2] - 2026-01-19
-### Security
-- Fixes [CVE-2026-0861](https://avd.aquasec.com/nvd/2026/cve-2026-0861)
-
-## [13.3-1] - 2026-01-15
-### Changed
-- Update Debian to v13.3
-
-## [13.2-1] - 2025-11-20
-### Changed
-- [#33] Update Debian to v13.2
-
-## [13.1-1] - 2025-09-10
-### Changed
-- [#31] Update Debian to v13.1
-- [#31] Update Makefiles to v10.2.1
-### Security
-- [#31] Fixes CVE-2025-58050
-
-## [13.0-1] - 2025-08-13
-### Changed
-- [#29] Update Debian to v13.0
-- [#29] Update doguctl to v0.13.3
-- [#29] Update Makefiles to v10.2.0
-### Security
-- [#29] Fixes CVE-2023-45853
+- Fixes [CVE-2023-45853](https://avd.aquasec.com/nvd/2023/cve-2023-45853/)
+- Fixes [CVE-2025-15467](https://avd.aquasec.com/nvd/2025/cve-2025-15467/)
 
 ## [12.9-1] - 2025-02-21
 ### Changed
