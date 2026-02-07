@@ -4,9 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [12.9-2] - 2026-02-07
+## [12.13-1] - 2026-02-07
+### Changed
+- Update Debian to version 12.13
+- Update doguctl to version 0.14.0
+
 ### Security
 - Fixes [CVE-2023-45853](https://avd.aquasec.com/nvd/2023/cve-2023-45853/)
+
+## [12.9-2] - 2026-02-07
+### Security
 - Fixes [CVE-2025-15467](https://avd.aquasec.com/nvd/2025/cve-2025-15467/)
 
 ## [12.9-1] - 2025-02-21
