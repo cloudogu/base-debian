@@ -14,7 +14,6 @@ RUN tar -xzf /tmp/doguctl.tar.gz -C /tmp \
 
 # install utilities and dependencies
 RUN apt update \
-  && apt -y dist-upgrade \
   && apt install -y --no-install-recommends \
     bash \
     ca-certificates \
