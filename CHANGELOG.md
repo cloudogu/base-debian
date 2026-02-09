@@ -11,7 +11,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [12.9-3] - 2026-02-09
 ### Security
-- Fixes [CVE-2023-45853](https://avd.aquasec.com/nvd/2023/cve-2023-45853/)
 - Fixes [CVE-2025-15467](https://avd.aquasec.com/nvd/2025/cve-2025-15467/)
 
 ## [12.9-1] - 2025-02-21
