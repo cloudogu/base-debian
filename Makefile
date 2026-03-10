@@ -1,6 +1,6 @@
 DEBIAN_VERSION=13.3
 DEBIAN_VER_SHA=2c91e484d93f0830a7e05a2b9d92a7b102be7cab562198b984a84fdbc7806d91
-CHANGE_COUNTER=5
+CHANGE_COUNTER=6
 IMAGE_TAG=$(DEBIAN_VERSION)-$(CHANGE_COUNTER)
 IMAGE_NAME=registry.cloudogu.com/official/base-debian
 IMAGE_NAME_PRERELEASE=registry.cloudogu.com/prerelease_official/base-debian
