@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "baseBranchPatterns": [
+    "debian12",
+    "debian13"
+  ],
+  "ignorePaths": [
+    "/build/**"
+  ]
+}
