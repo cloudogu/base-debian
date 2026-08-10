@@ -1,0 +1,4 @@
+# This CVE only affects regular expressions on 32-bit systems. Our software
+# (Classic and MultiNode) is explicitly 64-bit, so this vulnerability cannot
+# be exploited on our CES systems.
+CVE-2026-8376
