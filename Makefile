@@ -1,11 +1,11 @@
 DEBIAN_VERSION=13.6
 DEBIAN_VER_SHA=f324c7ff54321e8d9c588493a20244965938ce0aa50bbd1022d38010e9ffc4b1
-CHANGE_COUNTER=3
+CHANGE_COUNTER=4
 IMAGE_TAG=$(DEBIAN_VERSION)-$(CHANGE_COUNTER)
 IMAGE_NAME=registry.cloudogu.com/official/base-debian
 IMAGE_NAME_PRERELEASE=registry.cloudogu.com/prerelease_official/base-debian
-DOGUCTL_VERSION=0.15.1
-DOGUCTL_VER_SHA=5a3042dbf54341884347cdd99bb60e032c6d2ba8909799114e4fd5d6fc33fe93
+DOGUCTL_VERSION=0.15.2
+DOGUCTL_VER_SHA=3203958e9de5f17d0238a275db4085ccc80fc0642db1b84a235782cef88da000
 # renovate: datasource=github-tags depName=cloudogu/makefiles extractVersion=^v(?<version>.*)$
 MAKEFILES_VERSION=10.9.1
 

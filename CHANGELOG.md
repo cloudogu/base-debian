@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [13.6-4] - 2026-09-03
+### Security
+- Update doguctl to v0.15.2 to fix [CVE-2026-56854](https://nvd.nist.gov/vuln/detail/CVE-2026-56854)
+
 ## [13.6-3] - 2026-09-01
 ### Changed
 - Update Debian 13.6 digest hash
