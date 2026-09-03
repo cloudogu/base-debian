@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [12.15-1] - 2026-09-03
 ### Changed
 - Update to Debian 12.15
-- Update doguctl to v0.15.2 to fix CVE-2026-56854
+### Security
+- Update doguctl to v0.15.2 to fix [CVE-2026-56854](https://nvd.nist.gov/vuln/detail/CVE-2026-56854)
 
 ## [12.14-1] - 2026-06-24
 ### Changed
