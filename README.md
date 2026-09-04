@@ -1,13 +1,16 @@
 [![GitHub license](https://img.shields.io/github/license/cloudogu/base-debian.svg)](https://github.com/cloudogu/base-debian/blob/main/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/cloudogu/base-debian.svg)](https://github.com/cloudogu/base-debian/releases)
 
-# Base Dogu Docker image (debian)
+# Base Dogu Docker image (Debian)
+
+## Branches
+This repository holds one main branch per Debian version (`debian12`, `debian13`, ...).
 
 ## Build & Release
-
 Detailed instructions for building and releasing the base image can be found in [build_release_en.md](docs/build_release_en.md).
 
 ---
+
 ## What is the Cloudogu EcoSystem?
 The Cloudogu EcoSystem is an open platform, which lets you choose how and where your team creates great software. Each service or tool is delivered as a Dogu, a Docker container. Each Dogu can easily be integrated in your environment just by pulling it from our registry.
 
@@ -21,7 +24,6 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License along with this program. If not, see https://www.gnu.org/licenses/.
 See [LICENSE](LICENSE) for details.
-
 
 ---
 
