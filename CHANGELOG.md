@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update Debian 12.15 image digest
 - Update doguctl to 0.17.0
 - Update Makefiles to v11.1.2
+- Update ces-build-lib to 6.0.0
 
 ## [12.15-2] - 2026-09-28
 ### Changed
