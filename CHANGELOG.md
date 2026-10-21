@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - Update Debian 13.7 image digest
+- Update doguctl to 0.17.0
 
 ## [13.7-1] - 2026-09-29
 ### Changed
