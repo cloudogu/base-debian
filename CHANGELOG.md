@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - Update doguctl to 0.17.2 to fix CVE-2026-33747, CVE-2026-53488 and CVE-2026-78663
+- Update Makefiles to v11.2.0
 
 ## [13.7-3] - 2026-10-22
 ### Changed
