@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - Run the pipeline on `cpu2mem4` workers
+- Update Debian 12.15 image digest
 
 ## [12.15-5] - 2026-11-03
 ### Changed
