@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Run the pipeline on `cpu2mem4` workers
 - Update Debian 13.7 image digest
+- Update ces-build-lib to 6.1.1
 
 ## [13.7-4] - 2026-11-03
 ### Changed
